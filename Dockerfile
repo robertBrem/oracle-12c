@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER jaspeen
+MAINTAINER Robert Brem <brem_robert@ĥotmail.com>
 
 ADD assets /assets
 

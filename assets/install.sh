@@ -10,8 +10,8 @@ if [ ! -d "/install/database" ]; then
 	exit 1
 fi
 
-echo_yellow "Installing Oracle Database 11g"
+echo_yellow "Installing Oracle Database 12c"
 
 su oracle -c "/install/database/runInstaller -silent -ignorePrereq -waitforcompletion -responseFile /assets/db_install.rsp"
 /opt/oracle/oraInventory/orainstRoot.sh
-/opt/oracle/app/product/11.2.0/dbhome_1/root.sh
+/opt/oracle/app/product/12.1.0/dbhome_1/root.sh
