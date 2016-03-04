@@ -12,7 +12,7 @@ Usage
 
 Download the installation file
 ------------------------------
-Because of the Oracle license agreement you have to download the Oracle installation file by yourself. You can find this files `here <http://www.oracle.com/technetwork/database/in-memory/downloads/index.html>`_.  
+Because of the Oracle license agreement you have to download the Oracle installation file by yourself. You can find this files `here <http://www.oracle.com/technetwork/database/in-memory/downloads/index.html>`_. Then you have to unzip the files in a installation folder of your choice.  
   
 Start the image
 ---------------
