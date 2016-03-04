@@ -4,7 +4,7 @@ Oracle 12c Enterprise Edition
 | This is a fork from `jaspeen/oracle-11g <https://github.com/robertBrem/oracle-12c>`_ adapted for Oracle 12c Enterprise Edition. I've just adapted the repository from jaspeen for the new version of Oracle 12c. The hard work was all made by jaspeen.  
 | If you do not need the Enterprise Edition look for a Oracle XE image. There are a lot XE images that are easier to use because of the Oracle license agreement.  
   
-| **This image for development use only**  
+| **This image is for development use only**  
 | Have a look at the Oracle license agreement for more information about the allowed usage of the Enterprise Edition.  
    
 Usage
@@ -12,14 +12,13 @@ Usage
 
 Download the installation file
 ------------------------------
-Because of the Oracle license agreement you have to download the Oracle installation file by yourself. You can find this files `here <http://www.oracle.com/technetwork/database/in-memory/downloads/index.html>`.  
+Because of the Oracle license agreement you have to download the Oracle installation file by yourself. You can find this files `here <http://www.oracle.com/technetwork/database/in-memory/downloads/index.html>`_.  
   
 Start the image
 ---------------
 Now you can start the image with the following command:
-```bash
-docker run --privileged --name oracle12c-startup -p 1521:1521 -v <install_folder>:/install robertbrem/oracle-12c
-```
+.. code:: bash
+    docker run --privileged --name oracle12c-startup -p 1521:1521 -v <install_folder>:/install robertbrem/oracle-12c
   
 Save the installed state
 ------------------------
