@@ -17,7 +17,7 @@ Because of the Oracle license agreement you have to download the Oracle installa
 Start the image
 ---------------
 Now you can start the image with the following command:
-.. code:: bash
+.. code-block:: bash
     docker run --privileged --name oracle12c-startup -p 1521:1521 -v <install_folder>:/install robertbrem/oracle-12c
   
 Save the installed state
