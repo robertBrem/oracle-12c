@@ -17,34 +17,27 @@ Because of the Oracle license agreement you have to download the Oracle installa
 Start the image
 ---------------
 Now you can start the image with the following command:
-.. code-block:: python
     docker run --privileged --name oracle12c-startup -p 1521:1521 -v <install_folder>:/install robertbrem/oracle-12c
   
 Save the installed state
 ------------------------
 The image will install the database on the first run. To speed up the following starts you can do a commit of the container after the installation with the following command:
-```bash
-docker commit oracle12c-startup oracle12c
-```
-  
+  docker commit oracle12c-startup oracle12c
+   
 Insert a dump
 -------------
 Optinally you can insert a dump. This can be achieved with the following command:
-```bash
-docker run --privileged --name oracle12c -p 1521:1521 -v <local_dpdump>:/opt/oracle/dpdump jaspeen/oracle-12c
-```
+  docker run --privileged --name oracle12c -p 1521:1521 -v <local_dpdump>:/opt/oracle/dpdump jaspeen/oracle-12c
 Now you have to execute the import statement:
-```bash
-docker exec -it oracle11g impdp ..
-```
-  
+  docker exec -it oracle11g impdp ..
+
 Information about the image
 +++++++++++++++++++++++++++
 The database is located in **/opt/oracle** folder.  
   
 The operating system users and theire passwords are:
-* root/install
-* oracle/install
+- root/install
+- oracle/install
   
 The database users and theire passwords are:
-* SYS/oracle
+- SYS/oracle
