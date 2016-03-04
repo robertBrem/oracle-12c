@@ -1,11 +1,11 @@
 Oracle 12c Enterprise Edition
 =============================
 
-This is a fork from `jaspeen/oracle-11g <https://github.com/robertBrem/oracle-12c>`_ adapted for Oracle 12c Enterprise Edition. I've just adapted the repository from jaspeen for the new version of Oracle 12c. The hard work was all made by jaspeen.  
-If you do not need the Enterprise Edition look for a Oracle XE image. There are a lot XE images that are easier to use because of the Oracle license agreement.  
+| This is a fork from `jaspeen/oracle-11g <https://github.com/robertBrem/oracle-12c>`_ adapted for Oracle 12c Enterprise Edition. I've just adapted the repository from jaspeen for the new version of Oracle 12c. The hard work was all made by jaspeen.  
+| If you do not need the Enterprise Edition look for a Oracle XE image. There are a lot XE images that are easier to use because of the Oracle license agreement.  
   
-**This image for development use only**  
-Have a look at the Oracle license agreement for more information about the allowed usage of the Enterprise Edition.  
+| **This image for development use only**  
+| Have a look at the Oracle license agreement for more information about the allowed usage of the Enterprise Edition.  
    
 Usage
 +++++
