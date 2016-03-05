@@ -11,5 +11,4 @@ fi
 chown -R oracle:oinstall /opt/oracle/dpdump
 chmod 777 /opt/oracle/dpdump
 
-su oracle
-/assets/entrypoint_oracle.sh
+su oracle -c "/assets/entrypoint_oracle.sh"
